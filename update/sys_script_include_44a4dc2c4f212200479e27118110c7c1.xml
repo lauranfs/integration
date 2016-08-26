@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_68710_test.DateTimeUtils</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>DateTimeUtils</name>
+        <script><![CDATA[var DateTimeUtils = Class.create();
+DateTimeUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	diffValues : function() {
+		
+		var dateInput = this.getParameter('sysparm_date');
+		var startTimeInput = this.getParameter('sysparm_starttime');
+		var endTimeInput = this.getParameter('sysparm_endtime');
+		var date = new GlideDate();
+		date.setDisplayValue(dateInput);
+		var startTime = new GlideTime();
+		startTime.setDisplayValue(startTimeInput);
+		var endTime = new GlideTime();
+		endTime.setDisplayValue(endTimeInput);
+		var user = gs.getUser();
+		var gr = new GlideRecord('sys_user');
+		gr.get(gs.getUserID());
+		
+		var time = new GlideTime(1000);
+		var a = time.getByFormat(gr.getValue('time_format'));
+		time.setValue(a);
+		
+		var returnable = {date: date.getDisplayValue(), stime: startTime.getDisplayValue(), etime: endTime.getDisplayValue(), format: gr.getValue('time_format'), time: time.getDisplayValue(), a: a};
+		
+		return JSON.stringify(returnable);
+	},
+    type: 'DateTimeUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>laura.nfs</sys_created_by>
+        <sys_created_on>2016-08-26 14:33:02</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>44a4dc2c4f212200479e27118110c7c1</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>DateTimeUtils</sys_name>
+        <sys_package display_value="Test" source="x_68710_test">81cde2504f212200479e27118110c70e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Test">81cde2504f212200479e27118110c70e</sys_scope>
+        <sys_update_name>sys_script_include_44a4dc2c4f212200479e27118110c7c1</sys_update_name>
+        <sys_updated_by>laura.nfs</sys_updated_by>
+        <sys_updated_on>2016-08-26 15:56:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

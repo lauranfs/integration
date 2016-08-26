@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="end_time" label="End Time" language="en" table="x_68710_test_reservation">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>end_time</element>
+            <help/>
+            <hint/>
+            <label>End Time</label>
+            <language>en</language>
+            <name>x_68710_test_reservation</name>
+            <plural>End Times</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>laura.nfs</sys_created_by>
+            <sys_created_on>2016-08-26 06:45:58</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ae5e22904f212200479e27118110c762</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>End Time</sys_name>
+            <sys_package display_value="Test" source="x_68710_test">81cde2504f212200479e27118110c70e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Test">81cde2504f212200479e27118110c70e</sys_scope>
+            <sys_update_name>sys_documentation_x_68710_test_reservation_end_time_en</sys_update_name>
+            <sys_updated_by>laura.nfs</sys_updated_by>
+            <sys_updated_on>2016-08-26 06:45:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

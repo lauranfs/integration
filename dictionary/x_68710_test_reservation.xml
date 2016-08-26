@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Reservation" max_length="40" name="x_68710_test_reservation" type="collection">
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="End Time" max_length="40" name="end_time" type="glide_time"/>
+        <element label="Start Time" max_length="40" name="start_time" type="glide_time"/>
+    </element>
+</database>

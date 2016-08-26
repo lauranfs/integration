@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>date</field>
+        <global>false</global>
+        <messages/>
+        <name>test</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var ga = new GlideAjax('DateTimeUtils');
+ 
+   ga.addParam('sysparm_name', 'diffValues');
+   ga.addParam('sysparm_date', g_form.getValue('date'));
+   ga.addParam('sysparm_starttime', g_form.getValue('start_time'));
+   ga.addParam('sysparm_endtime', g_form.getValue('end_time'));
+   ga.getXML(doAlert);
+}
+ 
+// Callback function to process the response returned from the server
+function doAlert(response) {
+ 
+    var answer = response.responseXML.documentElement.getAttribute("answer");
+ 
+    g_form.addInfoMessage(answer);
+}
+   ]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>laura.nfs</sys_created_by>
+        <sys_created_on>2016-08-26 14:32:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a087d4684f612200479e27118110c7e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Test" source="x_68710_test">81cde2504f212200479e27118110c70e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Test">81cde2504f212200479e27118110c70e</sys_scope>
+        <sys_update_name>sys_script_client_a087d4684f612200479e27118110c7e3</sys_update_name>
+        <sys_updated_by>laura.nfs</sys_updated_by>
+        <sys_updated_on>2016-08-26 14:32:52</sys_updated_on>
+        <table>x_68710_test_reservation</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Test">125eaa504f212200479e27118110c7a9</application>
+        <filter/>
+        <name>Reservations</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_68710_test_reservation_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>laura.nfs</sys_created_by>
+        <sys_created_on>2016-08-26 06:45:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a5eaa504f212200479e27118110c7a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reservations</sys_name>
+        <sys_package display_value="Test" source="x_68710_test">81cde2504f212200479e27118110c70e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Test">81cde2504f212200479e27118110c70e</sys_scope>
+        <sys_update_name>sys_ui_module_1a5eaa504f212200479e27118110c7a9</sys_update_name>
+        <sys_updated_by>laura.nfs</sys_updated_by>
+        <sys_updated_on>2016-08-26 06:45:57</sys_updated_on>
+        <table>x_68710_test_reservation</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>
