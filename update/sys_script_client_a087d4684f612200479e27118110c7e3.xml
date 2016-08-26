@@ -4,7 +4,7 @@
         <active>true</active>
         <applies_extended>false</applies_extended>
         <condition/>
-        <description/>
+        <description>whatever</description>
         <field>date</field>
         <global>false</global>
         <messages/>
@@ -39,7 +39,7 @@ function doAlert(response) {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a087d4684f612200479e27118110c7e3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Test" source="x_68710_test">81cde2504f212200479e27118110c70e</sys_package>
@@ -47,8 +47,8 @@ function doAlert(response) {
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Test">81cde2504f212200479e27118110c70e</sys_scope>
         <sys_update_name>sys_script_client_a087d4684f612200479e27118110c7e3</sys_update_name>
-        <sys_updated_by>laura.nfs</sys_updated_by>
-        <sys_updated_on>2016-08-26 14:32:52</sys_updated_on>
+        <sys_updated_by>laura.nunes</sys_updated_by>
+        <sys_updated_on>2016-08-26 16:14:21</sys_updated_on>
         <table>x_68710_test_reservation</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

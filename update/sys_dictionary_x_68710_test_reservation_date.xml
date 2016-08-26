@@ -51,8 +51,8 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>laura.nfs</sys_created_by>
         <sys_created_on>2016-08-26 06:45:56</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>56dde2104f212200479e27118110c784</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>dacfa4a84f612200f053c3818110c749</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Date</sys_name>
         <sys_package display_value="Test" source="x_68710_test">81cde2504f212200479e27118110c70e</sys_package>
@@ -60,8 +60,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Test">81cde2504f212200479e27118110c70e</sys_scope>
         <sys_update_name>sys_dictionary_x_68710_test_reservation_date</sys_update_name>
-        <sys_updated_by>laura.nfs</sys_updated_by>
-        <sys_updated_on>2016-08-26 06:45:56</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2016-08-26 16:11:29</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

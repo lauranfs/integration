@@ -38,7 +38,7 @@ DateTimeUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>laura.nfs</sys_created_by>
         <sys_created_on>2016-08-26 14:33:02</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>44a4dc2c4f212200479e27118110c7c1</sys_id>
         <sys_mod_count>14</sys_mod_count>
         <sys_name>DateTimeUtils</sys_name>

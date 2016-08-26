@@ -21,7 +21,7 @@
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>laura.nfs</sys_created_by>
         <sys_created_on>2016-08-26 06:45:57</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>8dddae504f212200479e27118110c71e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Reservation</sys_name>
